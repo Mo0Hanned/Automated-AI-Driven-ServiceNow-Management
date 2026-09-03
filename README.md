@@ -54,7 +54,7 @@ Anyone can clone this repository, follow these steps, and run the service locall
 
 1. **Clone & Initialize Project:**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Mo0Hanned/Automated-AI-Driven-ServiceNow-Management.git
    cd Agentic_Incident_Flow
    uv init --python 3.12
    ```
