@@ -10,10 +10,6 @@ load_dotenv()
 SN_INSTANCE_URL = os.getenv("SN_INSTANCE_URL")
 SN_USERNAME = os.getenv("SN_USERNAME")
 SN_PASSWORD = os.getenv("SN_PASSWORD")
-
-# Add this line to ensure Python is reading the password correctly
-print(f"DEBUG - Loaded Password: {SN_PASSWORD}")
-
 class ServiceNowUpdatePayload(BaseModel):
     state: Optional[int] = None 
     close_notes: Optional[str] = None
